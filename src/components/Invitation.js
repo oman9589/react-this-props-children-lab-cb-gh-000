@@ -2,8 +2,6 @@ import React from 'react';
 
 class Invitation extends React.Component {
   render() {
-    window.alert('test');
-
     const children = React.Children.map(this.props.children, child => {
       return (
         <div> {child} </div>
