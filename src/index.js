@@ -6,7 +6,6 @@ import ThemedParty from './components/ThemedDecorations';
 
 ReactDOM.render(
   <div>
-  window.alert('test');
     <Invitation>Hey, you should totally come to this awesome party I'm throwing!</Invitation>
     <ThemedParty theme="heaven">
       <p>A decoration</p>
